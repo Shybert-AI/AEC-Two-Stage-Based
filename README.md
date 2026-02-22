@@ -61,6 +61,11 @@ torch==2.0.1
 matplotlib==3.7.1
 pesq==0.0.3
 pystoi==0.3.3
+onnx==1.15.0
+onnxsim==8.0.3
+netron==7.6.2
+thop==0.1.1-2209072238
+torchsummary==1.5.1
 ```
 
 通过以下命令安装依赖：
@@ -147,9 +152,9 @@ pip install -r requirements.txt
 
 ## 使用指南
 
-### 训练模型
+### 训练模型（可选）
 
-支持U-Net和LSTM两种模型类型：
+支持U-Net和LSTM两种模型：
 
 ```bash
 # 训练U-Net模型
@@ -160,7 +165,7 @@ python train.py --data_dir data/preprocessed --model_type lstm --batch_size 16 -
 ```
 
 ### 单个音频处理
-
+权重文件在Releases v1.0.0 Latest的checkpoints.zip，下载完成后将lstm_best.pth和unet_best.pth放到checkpoints目录  
 ```bash
 python main.py --farend_path test/farend_speech.wav --mic_path test/nearend_mic.wav --model_type unet
 ```
