@@ -201,7 +201,7 @@ python net_plot.py
 
 ![改进箱线图](evaluation/improvements_boxplot.png)
 
-![波形对比示例](evaluation/9147_waveforms.png)
+![evaluation/9147_waveforms.png](evaluation/9147_waveforms.png)
 
 ## 项目结构
 
