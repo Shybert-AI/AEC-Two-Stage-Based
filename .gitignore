@@ -1,0 +1,31 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+/data/synthetic/
+/data/preprocessed/
+*.wav
+*.npz
+*.npy
+*.json
+*.log
+*.txt
+*.pt
+*.pth
+*.pth.tar
+*.pth.tar.gz
+*.pth.tar.xz
+*.pth.tar.bz2
+*.pth.tar.lzma
+*.h5
+*.hdf5
+*.hdf
+*.hdf.gz
+*.hdf.xz
+*.hdf.bz2
+*.hdf.lzma
