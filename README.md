@@ -198,13 +198,7 @@ python net_plot.py
 
 ### 效果对比
 
-以下是评估过程中生成的效果对比图：
-
-![指标对比](evaluation/metrics_comparison.png)
-
-![指标散点图](evaluation/metrics_scatter.png)
-
-![改进箱线图](evaluation/improvements_boxplot.png)
+evaluation：以下是评估过程中生成的效果图：
 
 ![evaluation/9147_waveforms.png](evaluation/9147_waveforms.png)
 
